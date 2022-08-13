@@ -8,6 +8,8 @@
 *.log
 *.log.*
 *.sig
+.vs
+.png
 
 pkg/
 src/
