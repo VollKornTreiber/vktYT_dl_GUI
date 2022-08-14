@@ -7,6 +7,7 @@ Straightforward with no BS unlike any other commercial downloader software out t
 <ul>
 <li>Youtube_dl library by ytdl-org: https://github.com/ytdl-org/youtube-dl</li>
 <li>ffmpeg.exe, either in directory or installed via console: https://github.com/FFmpeg/FFmpeg</li>
+<li>PySimpleGUI library, preferably installed via pip3: https://github.com/PySimpleGUI/PySimpleGUI</li>
 </ul>
 
 <h2>Troubleshooting</h2>
