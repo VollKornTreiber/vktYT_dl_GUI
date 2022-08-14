@@ -8,8 +8,14 @@
 *.log
 *.log.*
 *.sig
-.vs
-.png
+
+*.mp3
+*.mp4
+*.m4a
+*.part
+
+.vs/
+*.png
 
 pkg/
 src/
