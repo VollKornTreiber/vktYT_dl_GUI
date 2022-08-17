@@ -39,7 +39,6 @@ class Loader:
         #prepare whole layout
         self.layout = [
             [sg.Text("Insert your Link, choose your format and quality and download. Dead-simple!")],
-            #[sg.Text("URL"), sg.Input(key = "INP"), sg.Button("Paste", key = "BUT_PASTE")],
             [sg.Text("URL"), sg.Input(key = "INP"), sg.Button("Paste", key = "BUT_PASTE")],
 
             [sg.HSeparator()],
