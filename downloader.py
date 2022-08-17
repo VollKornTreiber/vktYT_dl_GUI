@@ -1,12 +1,27 @@
-#This downloader GUI makes use of the Youtube_dl library.
 #ffmpeg is required for this in order to convert to Mp3/mp4: https://github.com/FFmpeg/FFmpeg
+#PySimpleGUI by PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI
 #Youtube_dl by ytdl-org: https://github.com/ytdl-org/youtube-dl
 
 from __future__ import unicode_literals;
-import youtube_dl;
-import PySimpleGUI as sg;
+import sys;
 
-VER = 0.5;
+try:
+    import youtube_dl;
+    print("'youtube_dl' library loaded...");
+except:
+    print("\nERROR: This app requires 'youtube_dl' library. Install it via console with 'pip3 install youtube_dl'.");
+    input("Press any key to close...");
+    sys.exit();
+
+try:
+    import PySimpleGUI as sg;
+    print("'PySimpleGUI loaded...");
+except:
+    print("\nERROR: This app requires 'PySimpleGUI' library. Install it via console with 'pip3 install pysimplegui'.");
+    input("Press any key to close...");
+    sys.exit();
+
+VER = "0.5.1";
 
 print("vktYT_dl_GUI - By VollKornTreiber, 2022");
 print("This is the output window. Don't close it.");
@@ -24,7 +39,9 @@ class Loader:
         #prepare whole layout
         self.layout = [
             [sg.Text("Insert your Link, choose your format and quality and download. Dead-simple!")],
+            #[sg.Text("URL"), sg.Input(key = "INP"), sg.Button("Paste", key = "BUT_PASTE")],
             [sg.Text("URL"), sg.Input(key = "INP"), sg.Button("Paste", key = "BUT_PASTE")],
+
             [sg.HSeparator()],
 
             [
