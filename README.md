@@ -15,7 +15,10 @@ Straightforward with no BS unlike any other commercial downloader software out t
 <ul>
 <li>	Q: I'm getting an "HTTP Error 403: Forbidden".<br>
 	A: Just press "Start" and try again. This might happen sometimes and has to do with Youtube's servers.<br></li>
-	
+<br>
+<li>	Q: If I run downloader.py, I get a black window and nothing happens.<br>
+	A: Close it and just run it again. It seems to be an occasional bug of Python or one of the libraries that prevents the program from starting up for some reason.<br></li>
+
 </ul>
 
 
