@@ -9,7 +9,7 @@ try:
     import youtube_dl;
     print("'youtube_dl' library loaded...");
 except:
-    print("\nERROR: This app requires 'youtube_dl' library. Install it via console with 'pip3 install youtube_dl'.");
+    print("\nERROR: This app requires 'youtube_dl' library. Install it via console with 'pip3 install youtube_dl {--upgrade}'.");
     input("Press any key to close...");
     sys.exit();
 
@@ -17,7 +17,7 @@ try:
     import PySimpleGUI as sg;
     print("'PySimpleGUI loaded...");
 except:
-    print("\nERROR: This app requires 'PySimpleGUI' library. Install it via console with 'pip3 install pysimplegui'.");
+    print("\nERROR: This app requires 'PySimpleGUI' library. Install it via console with 'pip3 install pysimplegui {--upgrade}'.");
     input("Press any key to close...");
     sys.exit();
 

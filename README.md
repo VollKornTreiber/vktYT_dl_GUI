@@ -1,6 +1,6 @@
 <h1>vktYT_dl_GUI</h1>
 
-<p>This is a simple GUI for quick download of Youtube videos and extract mp3's.<br>
+<p>This is a simple GUI for quick download of YT (and other) videos and extract mp3's.<br>
 Straightforward with no BS unlike any other commercial downloader software out there. :)</p>
 
 <h2>Requirements</h2>
@@ -15,7 +15,8 @@ Straightforward with no BS unlike any other commercial downloader software out t
 <ul>
 <li>	Q: I'm getting an "HTTP Error 403: Forbidden".<br>
 	A: Just press "Start" and try again. This might happen sometimes and has to do with Youtube's servers.<br></li>
-	
+<li>	Q: I'm getting a "Could not be resolved" error when downloading from YT.<br>
+	A: This is because YT made some changes. You'll need to update the ytdl library. If it doesn't work with pip, then do it manually by downloading the fixed version from the original GitHub repo and replacing the library files manually on your computer.<br></li>
 </ul>
 
 
