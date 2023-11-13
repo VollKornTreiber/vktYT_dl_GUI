@@ -7,7 +7,7 @@ Straightforward with no BS unlike any other commercial downloader software out t
 
 <h2>Requirements</h2>
 <ul>
-<li>Youtube_dl library by ytdl-org, preferably installed via pip3: https://github.com/ytdl-org/youtube-dl</li>
+<li>Youtube_dl library by ytdl-org: https://github.com/ytdl-org/youtube-dl</li>
 <li>PySimpleGUI library, preferably installed via pip3: https://github.com/PySimpleGUI/PySimpleGUI</li>
 <li>ffmpeg.exe, either in directory or installed via console: https://github.com/FFmpeg/FFmpeg</li>
 </ul>
@@ -18,9 +18,11 @@ Straightforward with no BS unlike any other commercial downloader software out t
 <li>	Q: I'm getting an "HTTP Error 403: Forbidden".<br>
 	A: Just press "Start" and try again. This might happen sometimes and has to do with Youtube's servers.<br></li>
 <li>	Q: I'm getting a "Could not be resolved" error when downloading from YT.<br>
-	A: This is because YT made some changes. You'll need to update the ytdl library. If it doesn't work with pip, then do it manually by downloading the fixed version from the original GitHub repo and replacing the library files manually on your computer.<br></li>
+	A: This is because YT made some changes. You'll need to update the ytdl library. If it doesn't work with pip, then do it manually by downloading the fixed version from the original GitHub repo and replace the library files on your computer.<br></li>
 </ul>
 
+<h2>Disclaimer</h2>
+<p>I am not associated with ytdl-org, PySimpleGui or FFmpeg in any way. This project only serves to facilitate the user's workflow.</p>
 
 <h2>Changelog:</h2>
 
