@@ -3,6 +3,8 @@
 <p>This is a simple GUI for quick download of YT (and other) videos and extract mp3's.<br>
 Straightforward with no BS unlike any other commercial downloader software out there. :)</p>
 
+<img src="screen01.png" alt="GUI Screenhot" width="auto" />
+
 <h2>Requirements</h2>
 <ul>
 <li>Youtube_dl library by ytdl-org, preferably installed via pip3: https://github.com/ytdl-org/youtube-dl</li>
