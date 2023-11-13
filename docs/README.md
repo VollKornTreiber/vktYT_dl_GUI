@@ -1,4 +1,4 @@
-<h1>vktYT_dl_GUI</h1>
+# vktYT_dl_GUI
 
 <p>This is a simple GUI for quick download of YT (and other) videos and extract mp3's.<br>
 Straightforward with no BS unlike any other commercial downloader software out there. :)</p>
