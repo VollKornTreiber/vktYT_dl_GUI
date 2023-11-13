@@ -13,7 +13,6 @@ Straightforward with no BS unlike any other commercial downloader software out t
 </ul>
 
 <h2>Troubleshooting</h2>
-
 <ul>
 <li>	Q: I'm getting an "HTTP Error 403: Forbidden".<br>
 	A: Just press "Start" and try again. This might happen sometimes and has to do with Youtube's servers.<br></li>
